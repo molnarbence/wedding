@@ -5,7 +5,7 @@
 </script>
 
 <template>
-  <li class="mr-6">
+  <li>
     <router-link :to="to"><slot></slot></router-link>
   </li>
 </template>

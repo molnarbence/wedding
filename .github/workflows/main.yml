@@ -30,19 +30,13 @@ jobs:
       with:
         name: build
         path: dist
-  
-  upload-to-ftp:
-    needs: build
-    runs-on: ubuntu-latest
-    steps:
-    - name: Download build artifact
-      uses: actions/download-artifact@v4
-      with:
-        name: build
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
         server: k02.awh.hu
+        protocol: ftps
+        security: strict
         username: ${{ secrets.ftp_username}}
         password: ${{ secrets.ftp_password }}
+        local-dir: ./dist/
       

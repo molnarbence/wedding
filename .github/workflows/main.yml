@@ -40,10 +40,9 @@ jobs:
       with:
         name: build
     - name: 📂 Sync files
-      uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+      uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
         server: k02.awh.hu
-        protocol: ftps
         username: ${{ secrets.ftp_username}}
         password: ${{ secrets.ftp_password }}
       

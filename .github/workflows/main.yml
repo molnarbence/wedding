@@ -31,7 +31,7 @@ jobs:
         name: build
         path: dist
   
-  upload-to-s3:
+  upload-to-ftp:
     needs: build
     runs-on: ubuntu-latest
     steps:
@@ -39,16 +39,10 @@ jobs:
       uses: actions/download-artifact@v4
       with:
         name: build
-    - name: Configure AWS Credentials
-      uses: aws-actions/configure-aws-credentials@v4
+    - name: 📂 Sync files
+      uses: SamKirkland/FTP-Deploy-Action@v4.3.5
       with:
-        aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
-        aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-        aws-region: us-east-1
-
-    - name: Deploy static site to S3 bucket
-      run: aws s3 sync ./ s3://rekaesbence.eu --delete
-
-    - name: Invalidate cache
-      run: aws cloudfront create-invalidation --distribution-id ${{ secrets.CLOUDFRONT_DISTRIBUTION_ID }} --paths "/*"
+        server: k02.awh.hu
+        username: ${{ secrets.ftp_username}}
+        password: ${{ secrets.ftp_password }}
       

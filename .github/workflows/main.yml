@@ -31,7 +31,7 @@ jobs:
         server: k02.awh.hu
         protocol: ftps
         security: strict
-        username: ${{ secrets.ftp_username}}
+        username: ${{ secrets.ftp_username }}
         password: ${{ secrets.ftp_password }}
         local-dir: ./dist/
       

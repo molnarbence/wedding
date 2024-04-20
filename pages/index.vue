@@ -8,26 +8,32 @@
         <div class="flex items-center justify-center flex-col text-center">
           <HeaderWithDeco />
           <div class="text-center space-y-4 px-4 sm:px-0">
-                <p class="leading-1 text-gray-500 font-sans">
-                  <cite>
-"Rejtelmek ha zengenek, <br>
-őrt állok, mint mesékbe'.<br>
-Bebujtattál engemet <br>
-talpig nehéz hűségbe."<br>
-<small>(József Attila: Rejtelmek)</small>
-</cite>
-                </p>
-            </div>
+            <p class="leading-1 text-gray-500 font-sans">
+              <cite>
+                "Rejtelmek ha zengenek, <br>
+                őrt állok, mint mesékbe'.<br>
+                Bebujtattál engemet <br>
+                talpig nehéz hűségbe."<br>
+                <small>(József Attila: Rejtelmek)</small>
+              </cite>
+            </p>
+          </div>
           <HeaderWithDeco />
         </div>
 
         <div class="flex items-center justify-center flex-col text-center mt-4">
           <HeaderWithDeco>Kedves családunk és barátaink</HeaderWithDeco>
           <div class="text-center space-y-4 px-4 sm:px-0">
-                <p class="leading-1 text-gray-500 font-sans">
-                  Idén <b>szeptember 14-én, 15:30-kor</b> szentségi házasságot kötünk a Jézus Szíve Jezsuita Templomban.
-                </p>
-            </div>
+            <p class="leading-1 text-gray-500 font-sans">
+              Idén <b>szeptember 14-én, 15:30-kor</b> szentségi házasságot kötünk a Jézus Szíve Jezsuita Templomban.
+            </p>
+          </div>
+        </div>
+
+        <div class="flex items-center justify-center flex-col text-center mt-4">
+          <div class="text-center space-y-4 px-4 sm:px-0">
+            <NuxtImg src="/images/templom-terkep.png" alt="templom" />
+          </div>
         </div>
       </div>
     </div>

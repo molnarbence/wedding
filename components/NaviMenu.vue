@@ -1,12 +1,8 @@
 <template>
-  <nav class="flex justify-center">
-    <ul class="flex">
-      <NaviMenuItem to="/">Köszöntő</NaviMenuItem>
-      <NaviMenuItem to="/menetrend">Menetrend</NaviMenuItem>
-      <NaviMenuItem to="/eskuvo">Esküvő</NaviMenuItem>
-      <NaviMenuItem to="/lakadalom">Lakadalom</NaviMenuItem>
-    </ul>
-  </nav>
+  <ul>
+    <NaviMenuItem to="/">Köszöntő</NaviMenuItem>
+    <NaviMenuItem to="/visszajelzes">Visszajelzés</NaviMenuItem>
+  </ul>
 </template>
 
 <style scoped></style>

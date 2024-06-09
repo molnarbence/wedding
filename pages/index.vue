@@ -21,20 +21,20 @@
           <HeaderWithDeco />
         </div>
 
-        <div class="flex items-center justify-center flex-col text-center mt-4">
+        <Paragraph class="mt-4">
           <HeaderWithDeco>Kedves családunk és barátaink</HeaderWithDeco>
           <div class="text-center space-y-4 px-4 sm:px-0">
             <p class="leading-1 text-gray-500 font-sans">
               Idén <b>szeptember 14-én, 15:30-kor</b> szentségi házasságot kötünk a Jézus Szíve Jezsuita Templomban.
             </p>
           </div>
-        </div>
+        </Paragraph>
 
-        <div class="flex items-center justify-center flex-col text-center mt-4">
+        <Paragraph class="mt-4">
           <div class="text-center space-y-4 px-4 sm:px-0">
             <NuxtImg src="/images/templom-terkep.png" alt="templom" />
           </div>
-        </div>
+        </Paragraph>
       </div>
     </div>
   </div>

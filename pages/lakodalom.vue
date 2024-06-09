@@ -17,6 +17,10 @@
     <HeaderWithDeco>A zene</HeaderWithDeco>
     A hangulatról a Show4You DJ-je gondoskodik majd.
   </Paragraph>
+  <Paragraph class="mt-5">
+    <HeaderWithDeco>A vőfély</HeaderWithDeco>
+    A Matyó Néptáncegyüttes tagja, Nyeste Sándor lesz a vőfélyünk. Érdemes lesz majd az utasításait követni :)
+  </Paragraph>
 </template>
 
 <script lang="ts" setup>

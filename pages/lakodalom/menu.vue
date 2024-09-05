@@ -11,11 +11,6 @@
 
 <script lang="ts" setup>
 
-interface MenuItem {
-  name: string
-  allergens: string
-}
-
 interface MenuSection {
   section: string
   items: [string, string][]
@@ -70,7 +65,7 @@ const menu: MenuSection[] = [
   {
     section: "Saláta",
     items: [
-      ["Cézár Saláta", "GL, LK, hal"]
+      ["Cézár saláta", "GL, LK, hal"]
     ]
   },
   {

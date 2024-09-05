@@ -6,7 +6,7 @@
 
 <template>
   <li>
-    <router-link :to="to"><slot></slot></router-link>
+    <router-link :to="to"><slot/></router-link>
   </li>
 </template>
 

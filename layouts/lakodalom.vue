@@ -1,6 +1,6 @@
 <template>
-  <LakodalomMenu class="mb-5" />
   <div>
+    <LakodalomMenu class="mb-5" />
     <slot />
   </div>
 </template>
@@ -9,6 +9,4 @@
 
 </script>
 
-<style>
-
-</style>
+<style></style>

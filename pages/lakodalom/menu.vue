@@ -1,11 +1,11 @@
 <template>
-  <span v-for="m in menu">
-    <Paragraph class="mb-5">
+  <span>
+    <ParagraphSection v-for="m in menu" :key="m.section" class="mb-5">
       <HeaderWithDeco>{{ m.section }}</HeaderWithDeco>
-      <ul class="list-inside" v-for="item in m.items">
-        <li>{{ item[0] }} <small v-if="item[1]">({{ item[1] }})</small></li>
+      <ul class="list-inside">
+        <li v-for="item in m.items" :key="item[0]">{{ item[0] }} <small v-if="item[1]">({{ item[1] }})</small></li>
       </ul>
-    </Paragraph>
+    </ParagraphSection>
   </span>
 </template>
 
@@ -85,18 +85,18 @@ const menu: MenuSection[] = [
   {
     section: "Italok",
     items: [
-       ["Szepsi Srácok Pálinkája (szilva, 2023)", ""],
-       ["Szénsavas és rostos üdítőitalok", ""],
-       ["Citromos és zöld jegestea", ""],
-       ["Szénsavas és szénsavmentes ásványvíz", ""],
-       ["Pilsner Urquell csapolt sör", ""],
-       ["Peroni 0.0% 0.33l", ""],
-       ["Kvassay Sauvignon Blanc Szekszárd 2021", ""],
-       ["Chateau Dereszla Tokaj Dry 2021", ""],
-       ["Chateau Dereszla Tokaj Muskotály 2022", ""],
-       ["Szeleshát Tekenővölgyi Rosé Szekszárd 2023", ""],
-       ["Szeleshát Merlot Szekszárd 2019", ""],
-       ["Nespresso feketekávé, cappuccino", ""]
+      ["Szepsi Srácok Pálinkája (szilva, 2023)", ""],
+      ["Szénsavas és rostos üdítőitalok", ""],
+      ["Citromos és zöld jegestea", ""],
+      ["Szénsavas és szénsavmentes ásványvíz", ""],
+      ["Pilsner Urquell csapolt sör", ""],
+      ["Peroni 0.0% 0.33l", ""],
+      ["Kvassay Sauvignon Blanc Szekszárd 2021", ""],
+      ["Chateau Dereszla Tokaj Dry 2021", ""],
+      ["Chateau Dereszla Tokaj Muskotály 2022", ""],
+      ["Szeleshát Tekenővölgyi Rosé Szekszárd 2023", ""],
+      ["Szeleshát Merlot Szekszárd 2019", ""],
+      ["Nespresso feketekávé, cappuccino", ""]
     ]
   }
 ]

@@ -10,10 +10,10 @@
             <div class="text-center space-y-4 px-4 sm:px-0">
               <p class="leading-1 text-gray-500 font-sans">
                 <cite>
-                  "Rejtelmek ha zengenek, <br >
-                  őrt állok, mint mesékbe'.<br >
-                  Bebujtattál engemet <br >
-                  talpig nehéz hűségbe."<br >
+                  "Rejtelmek ha zengenek, <br />
+                  őrt állok, mint mesékbe'.<br />
+                  Bebujtattál engemet <br />
+                  talpig nehéz hűségbe."<br />
                   <small>(József Attila: Rejtelmek)</small>
                 </cite>
               </p>

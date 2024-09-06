@@ -1,4 +1,5 @@
 import withNuxt from './.nuxt/eslint.config.mjs';
+import prettierConfig from 'eslint-config-prettier';
 
 export default withNuxt(
   // your custom flat configs go here, for example:
@@ -11,6 +12,7 @@ export default withNuxt(
   // {
   //   ...
   // }
+  prettierConfig,
   {
     rules: {
       'nuxt/prefer-import-meta': 'error',

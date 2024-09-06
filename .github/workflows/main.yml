@@ -39,3 +39,21 @@ jobs:
           username: ${{ secrets.ftp_username }}
           password: ${{ secrets.ftp_password }}
           local-dir: ./dist/
+    
+  build-with-bun:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: Use Bun
+        uses: oven-sh/setup-bun@v2
+      - name: Install depencies
+        run: bun install
+      - name: Check format
+        run: bun format:check
+      - name: Lint
+        run: bun lint
+      - name: Test
+        run: bun test
+      - name: Generate static files
+        run: bun generate

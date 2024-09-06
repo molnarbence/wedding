@@ -31,20 +31,14 @@ const menu: MenuSection[] = [
       ['Pulled pork rilette,sárga paradicsom lekvár', 'LK'],
       ['Sajtos buché (V)', 'GL, LK'],
       ['Chickenfingers pohárban, remoulade mártás', 'GL'],
-      [
-        'Medvehagymás ricotta, marinált zöldségek, rukkola Wrap (V)',
-        'LK, gomba',
-      ],
+      ['Medvehagymás ricotta, marinált zöldségek, rukkola Wrap (V)', 'LK, gomba'],
     ],
   },
   {
     section: 'Főétel',
     items: [
       ['Grillezett lazacderék , zöldséges tagliatelle', 'GL, LK, tojás, hal'],
-      [
-        'Szárított paradicsommal töltött csirkemell - petrezselymes burgonya',
-        'LK',
-      ],
+      ['Szárított paradicsommal töltött csirkemell - petrezselymes burgonya', 'LK'],
       ['Pulled pork BBQ - vadrizs', ''],
       ['Marhapörkölt - vajgaluska', 'GL, LK, tojás'],
       ['Tepsiben sült gnocchi Sorientina (V)', 'GL, LK, tojás'],
@@ -65,12 +59,7 @@ const menu: MenuSection[] = [
   },
   {
     section: 'Éjfélkor',
-    items: [
-      [
-        'Kolozsvári mini töltött káposzta, friss tejfellel házi fehér kenyérrel',
-        'GL, LK',
-      ],
-    ],
+    items: [['Kolozsvári mini töltött káposzta, friss tejfellel házi fehér kenyérrel', 'GL, LK']],
   },
   {
     section: 'Italok',

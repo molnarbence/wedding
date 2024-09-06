@@ -11,11 +11,7 @@
     </div>
 
     <div class="absolute top-3/4 w-full">
-      <p
-        class="text-center text-white text-4xl sm:text-7xl font-serif font-bold"
-      >
-        Réka &amp; Bence
-      </p>
+      <p class="text-center text-white text-4xl sm:text-7xl font-serif font-bold">Réka &amp; Bence</p>
     </div>
   </div>
 </template>

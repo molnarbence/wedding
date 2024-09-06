@@ -1,13 +1,11 @@
 <script lang="ts" setup>
 definePageMeta({
-    layout: 'other'
-})
+  layout: 'other',
+});
 </script>
 
 <template>
-    <div>
-        Röviden
-    </div>
+  <div>Röviden</div>
 </template>
 
 <style scoped></style>

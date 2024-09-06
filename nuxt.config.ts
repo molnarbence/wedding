@@ -3,7 +3,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
 
   nitro: {
-    preset: 'static'
+    preset: 'static',
   },
 
   css: ['~/assets/css/main.css'],
@@ -15,6 +15,6 @@ export default defineNuxtConfig({
     },
   },
 
-  modules: ["@nuxt/image", '@nuxt/eslint'],
-  compatibilityDate: '2024-09-05'
-})
+  modules: ['@nuxt/image', '@nuxt/eslint'],
+  compatibilityDate: '2024-09-05',
+});

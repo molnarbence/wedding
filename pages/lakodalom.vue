@@ -6,10 +6,8 @@
 
 <script lang="ts" setup>
 definePageMeta({
-  layout: 'other'
-})
+  layout: 'other',
+});
 </script>
 
-<style>
-
-</style>
+<style></style>

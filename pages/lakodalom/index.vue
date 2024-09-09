@@ -2,9 +2,9 @@
   <span>
     <ParagraphSection class="mt-5">
       <HeaderWithDeco>Menetrend</HeaderWithDeco>
-      <p>
-        <div v-for="row in timelineRows" :key="row">{{ row }}</div>
-      </p>
+      <ul>
+        <li v-for="row in timelineRows" :key="row">{{ row }}</li>
+      </ul>
     </ParagraphSection>
     <ParagraphSection class="mt-5">
       <HeaderWithDeco>A helyszín</HeaderWithDeco>

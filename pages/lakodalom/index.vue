@@ -33,7 +33,7 @@ const timelineRows = [
   '19:00 - Vacsora',
   '20:30 - Nyitótánc',
   '20:45 - Tánc',
-  '21:45 - Kvíz, vetítés',
+  '21:30 - Kvíz, vetítés',
   '22:00 - Tortavágás',
   '22:30 - Tánc',
   '23:30 - Menyecsketánc',

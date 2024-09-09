@@ -1,6 +1,12 @@
 <template>
   <span>
-    <ParagraphSection>
+    <ParagraphSection class="mt-5">
+      <HeaderWithDeco>Menetrend</HeaderWithDeco>
+      <p>
+        <div v-for="row in timelineRows" :key="row">{{ row }}</div>
+      </p>
+    </ParagraphSection>
+    <ParagraphSection class="mt-5">
       <HeaderWithDeco>A helyszín</HeaderWithDeco>
       Nem más mint a Testnevelési Egyetem új épületének étterme, a Testnevelési Egyetem "K" épülete mellett. Címe: 1123
       Budapest, Alkotás u. 44.
@@ -9,13 +15,8 @@
       </div>
     </ParagraphSection>
     <ParagraphSection class="mt-5">
-      <HeaderWithDeco>Az időpont</HeaderWithDeco>
-      Kb. 17:30-tól. A nászmise után mi még kettesben elugrunk egy rövid fotózásra a naplementében, de azután mi is
-      csatlakozunk a vendégekhez.
-    </ParagraphSection>
-    <ParagraphSection class="mt-5">
       <HeaderWithDeco>A zene</HeaderWithDeco>
-      A hangulatról a Show4You DJ-je gondoskodik majd.
+      A hangulatról a Show4You DJ-je gondoskodik majd. Ha nagyon szépen kéritek a DJ-t, akkor teljesíti a kéréseteket :)
     </ParagraphSection>
     <ParagraphSection class="mt-5">
       <HeaderWithDeco>A vőfély</HeaderWithDeco>
@@ -24,6 +25,22 @@
   </span>
 </template>
 
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+const timelineRows = [
+  "17:30 - Érkezés",
+  "18:00 - Gratulációk és fényképezkedés",
+  "18:50 - Megnyitó, beszédek, csókok",
+  "19:00 - Vacsora",
+  "20:30 - Nyitótánc",
+  "20:45 - Tánc",
+  "21:45 - Kvíz, vetítés",
+  "22:00 - Tortavágás",
+  "22:30 - Tánc",
+  "23:30 - Menyecsketánc",
+  "Éjfél - Töltött káposzta",
+  "3:00 - Búcsú",
+  "Hajnalig? - After party az éjszakában?"
+]
+</script>
 
 <style></style>

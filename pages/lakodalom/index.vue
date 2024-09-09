@@ -27,20 +27,20 @@
 
 <script lang="ts" setup>
 const timelineRows = [
-  "17:30 - Érkezés",
-  "18:00 - Gratulációk és fényképezkedés",
-  "18:50 - Megnyitó, beszédek, csókok",
-  "19:00 - Vacsora",
-  "20:30 - Nyitótánc",
-  "20:45 - Tánc",
-  "21:45 - Kvíz, vetítés",
-  "22:00 - Tortavágás",
-  "22:30 - Tánc",
-  "23:30 - Menyecsketánc",
-  "Éjfél - Töltött káposzta",
-  "3:00 - Búcsú",
-  "Hajnalig? - After party az éjszakában?"
-]
+  '17:30 - Érkezés',
+  '18:00 - Gratulációk és fényképezkedés',
+  '18:50 - Megnyitó, beszédek, csókok',
+  '19:00 - Vacsora',
+  '20:30 - Nyitótánc',
+  '20:45 - Tánc',
+  '21:45 - Kvíz, vetítés',
+  '22:00 - Tortavágás',
+  '22:30 - Tánc',
+  '23:30 - Menyecsketánc',
+  'Éjfél - Töltött káposzta',
+  '3:00 - Búcsú',
+  'Hajnalig? - After party az éjszakában?',
+];
 </script>
 
 <style></style>

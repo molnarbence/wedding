@@ -14,8 +14,6 @@
       <HeaderWithDeco>Hogyan használjam?</HeaderWithDeco>
       <span> Az alábbi videó segít majd </span>
       <iframe
-        width="560"
-        height="315"
         src="https://www.youtube.com/embed/UwbsFhCQCfI?si=VeV72FeurO5wmKav"
         title="YouTube video player"
         frameborder="0"
